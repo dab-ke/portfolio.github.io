@@ -1,0 +1,19 @@
+/* Button styles */
+.bottom-section > #topbtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.bottom-section > #topbtn:hover {
+    opacity: 0.8;
+}

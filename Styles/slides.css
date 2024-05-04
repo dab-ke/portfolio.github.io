@@ -1,0 +1,130 @@
+/* slide 1 */
+.midtop-section > .portfolio-content {
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+    width: 900px;
+    margin: 50px auto;
+}
+.midtop-section > .portfolio-content > .name {
+    max-width: 500px;
+    float: left;
+}
+.midtop-section > .portfolio-content > .name h1 {
+    color: white;
+    padding: 100px 0px 0px 150px;
+    font-size: 100px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .name h3 {
+    color: #cbcbcb;
+    padding: 0px 0px 0px 250px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .image1 {
+    float: right;
+    max-width: 350px;
+    padding: 25px 80px;
+}
+.midtop-section > .portfolio-content > .image1 img {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* slide 2 */
+.midtop-section > .portfolio-content > .image2 {
+    float: left;
+    padding: 20px;
+}
+.midtop-section > .portfolio-content > .image2 img {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+.midtop-section > .portfolio-content > .bio {
+    float: right;
+    max-width: 400px;
+    padding: 60px;
+    text-align: right;
+}
+.midtop-section > .portfolio-content > .bio h1 {
+    color: #cbcbcb;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .bio h3 {
+    color: white;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* slide 3 */
+.midtop-section > .portfolio-content > .quote {
+    float: left;
+    max-width: 400px;
+    padding: 60px;
+    text-align: right;
+}
+.midtop-section > .portfolio-content > .quote h1 {
+    color: white;
+    font-size: 37px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .quote h3 {
+    color: #cbcbcb;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .image3 {
+    float: right;
+    padding: 20px;
+}
+.midtop-section > .portfolio-content > .image3 img {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* slide 4 */
+.midtop-section > .portfolio-content > .slide-container {
+    display: flex;
+}
+.midtop-section > .portfolio-content > .slide-container > .column1 {
+    display: grid;
+    padding: 20px 0px 10px 40px;
+}
+.midtop-section > .portfolio-content > .slide-container > .column1 img {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.midtop-section > .portfolio-content > .slide-container > .column2 {
+    padding: 50px 25px 0px 40px;
+}
+.midtop-section > .portfolio-content > .slide-container > .column2 h3 {
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.midtop-section > .portfolio-content > .slide-container > .column3 {
+    padding: 30px 0px 0px 40px;
+}
+.midtop-section > .portfolio-content > .slide-container > .column3 img {
+    float: right;
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}

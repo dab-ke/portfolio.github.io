@@ -1,0 +1,180 @@
+@media (max-width: 615px) {
+    .navbar {
+        display: block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .navbar > .left-column {
+        order: 1;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .navbar > .left-column img {
+        width: 150px;
+        height: 100%;
+    }
+    .navbar > .right-column {
+        order: 2;
+        display: grid;
+    }
+    .navbar > .right-column > .right-column-links {
+        padding-top: 50px;
+    }
+    .top-section {
+        height: 100%;
+        display: flex;
+    }
+    .top-section > .description {
+        margin-top: 0px;
+        margin-left: 0px;
+        border-left: none;
+        border-top: 1px solid white;
+        padding: 10px 3px;
+        text-align: right;
+    }
+    .top-section > .description p {
+        font-size: 16px;
+    }
+    .top-section > .image {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+    .top-section > .image img {
+        height: 100%;
+        width: 202px;
+    }
+    .midtop-section {
+        height: 100%;
+    }
+    .midtop-section > .header {
+        display: flex;
+        min-height: 100px;
+    }
+    .midtop-section > .header > .image {
+        padding-top: 50px;
+        padding-left: 6px;
+    }
+    .midtop-section > .header > .image img {
+        height: 150px;
+        width: 100%;
+    }
+    .midtop-section > .header > .heading {
+        padding: 40px 10px;
+    }
+    .midtop-section > .header > .heading h1 {
+        font-size: 50px;
+    }
+    .midtop-section > .portfolio-content {
+        height: 300px;
+        width: 400px;
+        display: flex;
+    }
+    .midtop-section > .portfolio-content > .name > h1 {
+        font-size: 50px;
+        padding: 60px 0px 0px 30px;
+    }
+    .midtop-section > .portfolio-content > .name > h3 {
+        font-size: 12px;
+        padding: 20px 0px 0px 60px;
+    }
+    .midtop-section > .portfolio-content > .image1 {
+        padding: 20px 0px 0px 30px;
+    }
+    .midtop-section > .portfolio-content > .image1 img {
+        height: 250px;
+        width: 100%;
+    }
+    .midtop-section > .portfolio-content > .image2 img {
+        height: 100%;
+        width: 160px;
+    }
+    .midtop-section > .portfolio-content > .bio {
+        padding: 5px 10px;
+    }
+    .midtop-section > .portfolio-content > .bio > h3 {
+        font-size: 16px;
+    }
+    .midtop-section > .portfolio-content > .quote {
+        padding: 25px 5px;
+    }
+    .midtop-section > .portfolio-content > .quote > h1 {
+        font-size: 20px;
+    }
+    .midtop-section > .portfolio-content > .image3 img {
+        height: 100%;
+        width: 160px;
+    }
+    .midtop-section > .portfolio-content > .slide-container {
+        display: flex;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column1 {
+        display: grid;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column1 img {
+        height: 118px;
+        width: 100%;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column2 {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column2 h3 {
+        font-size: 16px;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column3 {
+        padding-right: 8px;
+        padding-left: 0px;
+    }
+    .midtop-section > .portfolio-content > .slide-container > .column3 img {
+        height: 250px;
+        width: 100%;
+    }
+    .middle-section {
+        height: 100%;
+    }
+    .middle-section > .header > .title h1 {
+        font-size: 50px;
+    }
+    .middle-section > .description {
+        display: grid;
+        padding-top: 0px;
+    }
+    .middle-section > .description > .image img {
+        height: 100%;
+        width: 380px;
+    }
+    .middle-section > .description > .features-description {
+        padding: 0px;
+    }
+    .middle-section > .description > .features-description h3 {
+        font-size: 15px;
+    }
+    .midbottom-section {
+        min-height: 200px;
+    }
+    .midbottom-section > .socials > .title h1 {
+        font-size: 50px;
+    }
+    .midbottom-section > .socials > .social-media-icons {
+        padding-top: 16px;
+        font-size: 30px;
+    }
+    .midbottom-section > .social-media-description {
+        font-size: 12px;
+    }
+    .bottom-section {
+        height: 300px;
+    }
+    .bottom-section > .title h1 {
+        font-size: 50px;
+    }
+    .bottom-section > .contact h3 {
+        font-size: 15px;
+    }
+    .bottom-section > .copyright {
+        padding-top: 200px;
+    }
+}

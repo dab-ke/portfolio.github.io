@@ -1,0 +1,183 @@
+/* First section styles */
+.top-section {
+    height: 750px;
+    padding-top: 150px;
+}
+.top-section > .description {
+    float: left;
+    max-width: 600px;
+    color: white;
+    border-left: 1px solid white;
+    padding: 100px 50px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.top-section > .description p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.top-section > .image {
+    float: right;
+    padding: 50px;
+}
+.top-section > .image img {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Second section styles */
+.midtop-section {
+    height: 2900px;
+}
+.midtop-section > .header {
+    min-height: 610px;
+}
+.midtop-section > .header > .image {
+    float: left;
+    max-width: 700px;
+    padding: 100px 50px;
+}
+.midtop-section > .header > .image img {
+    height: 450px;
+    width: 100%;
+    border-radius: 10px;
+}
+.midtop-section > .header > .heading {
+    float: right;
+    padding-top: 150px;
+    padding-right: 120px;
+}
+.midtop-section > .header > .heading h1 {
+    font-size: 110px;
+    color: #cbcbcb;
+    text-align: right;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Third section styles */
+.middle-section {
+    min-height: 1000px;
+}
+.middle-section > .header {
+    padding-top: 10px;
+}
+.middle-section > .header > .title {
+    min-height: 100px;
+}
+.middle-section > .header > .title h1 {
+    font-size: 110px;
+    color: #cbcbcb;
+    padding-left: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.middle-section > .description {
+    display: flex;
+    color: white;
+    padding: 20px 50px;
+}
+.middle-section > .description > .image img {
+    height: 100%;
+    width: 500px;
+}
+.middle-section > .description > .features-description {
+    padding: 50px;
+    letter-spacing: 1px;
+}
+.middle-section > .description > .features-description h3 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.middle-section > .description > .features-description a {
+    color: white;
+}
+
+/* Fourth section styles */
+.midbottom-section {
+    min-height: 500px;
+}
+.midbottom-section > .socials > .title {
+    min-height: 100px;
+    padding-top: 10px;
+}
+.midbottom-section > .socials > .title h1 {
+    font-size: 110px;
+    color: #cbcbcb;
+    padding: 0px 0px 0px 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.midbottom-section > .socials > .social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 50px;
+}
+.midbottom-section > .socials > .social-media-icons a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.midbottom-section > .socials > .social-media-icons a:hover {
+    color: white;
+}
+.midbottom-section > .social-media-description {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.midbottom-section > .social-media-description h3 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.midbottom-section > .social-media-description a {
+    color: #cbcbcb;
+}
+
+/* Fifth section styles */
+.bottom-section {
+    min-height: 500px;
+}
+.bottom-section > .title {
+    min-height: 100px;
+}
+.bottom-section > .title h1 {
+    font-size: 110px;
+    color: #cbcbcb;
+    padding: 0px 0px 0px 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bottom-section > .contact {
+    color: #cbcbcb;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+}
+.bottom-section > .contact h3 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.bottom-section > .contact a {
+    color: white;
+}
+.bottom-section > .copyright {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.7em;
+    color: #cbcbcb;
+    text-align: center;
+    padding-top: 120px;
+}
