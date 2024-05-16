@@ -38,15 +38,18 @@
         font-size: 16px;
     }
     .top-section > .image {
+        position: relative;
         display: flex;
         justify-content: center;
-        width: 100vw;
+        width: 100%;
+        max-width: 600px;
         padding-right: 6px;
         padding-left: 6px;
     }
     .top-section > .image img {
         height: 100%;
         width: 340px;
+        /* display: block; */
     }
     .midtop-section {
         height: 100%;
@@ -189,6 +192,10 @@
     }
     .bottom-section > .copyright {
         padding-top: 200px;
+    }
+    #topbtn {
+        font-size: 16px;
+        padding: 12px;
     }
 }
 

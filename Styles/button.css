@@ -1,5 +1,5 @@
 /* Button styles */
-.bottom-section > #topbtn {
+#topbtn {
     /* display: none; */
     position: fixed;
     bottom: 20px;
@@ -14,6 +14,6 @@
     font-size: 20px;
     opacity: 0.5;
 }
-.bottom-section > #topbtn:hover {
+#topbtn:hover {
     opacity: 0.8;
 }
