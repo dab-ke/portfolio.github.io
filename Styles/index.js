@@ -16,3 +16,14 @@ function scrollFunction() {
 function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Show and hide text
+function showText(element) {
+  const container=element.parentElement;
+  container.classList.toggle('show-text');
+}
+function hideText(element) {
+  const container=element.parentElement;
+  container.classList.remove('show-text');
+}
+

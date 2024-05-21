@@ -25,6 +25,8 @@
         height: 100%;
         display: flex;
         padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
     }
     .top-section > .description {
         margin-top: 0px;
@@ -46,11 +48,50 @@
         max-width: 600px;
         padding-right: 6px;
         padding-left: 6px;
+        overflow: hidden;
     }
     .top-section > .image img {
-        height: 100%;
-        width: 340px;
-        /* display: block; */
+        height: auto;
+        width: 350px;
+    }
+    .top-section > .image > .fas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        background: #ffffff98;
+        border: 1px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .top-section > .image.show-text .fas {
+        opacity: 0;
+    }
+    .top-section > .image > .text-overlay {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: bottom 0.5s ease-in-out;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        width: 350px;
+        box-sizing: border-box;
+    }
+    .top-section > .image > .text-overlay p {
+        font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        margin: 0;
+    }
+    .image.show-text .text-overlay {
+        bottom: 8%;
     }
     .midtop-section {
         height: 100%;
@@ -265,5 +306,14 @@
     }
     .bottom-section > .title h1 {
         font-size: 90px;
+    }
+}
+
+@media only screen and (min-width: 615px) {
+    .top-section > .image > .text-overlay {
+        display: none;
+    }
+    .top-section > .image i {
+        display: none;
     }
 }
