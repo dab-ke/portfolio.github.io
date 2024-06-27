@@ -132,7 +132,7 @@
 .midbottom-section > .social-media-description {
     color: white;
     text-align: center;
-    padding-top: 60px;
+    padding: 60px 20px 0px 20px;
     font-size: 20px;
 }
 .midbottom-section > .social-media-description h3 {
